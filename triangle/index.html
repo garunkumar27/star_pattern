@@ -5,12 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .container{
+            margin: auto;
+            display: flex;
+            background-color: rgb(236, 230, 230);
+            justify-content: space-around;
+        }
+        .container div{
+            width: 30%;
+        }
+    </style>
 </head>
 <body>
     <h1>Triangle Star pattern</h1>
-    <h1 id="left"></h1>
-    <h1 id="right"></h1>
-    <div id="abc"></div>
+    <div class="container">
+        <div>
+    <h2 id="left"></h2>
+    <p id="left_star"></p>
+</div>
+<div>
+    <h2 id="right"></h2>
+    <p id="right_star"></p>
+</div>
+<div>
+    <h2 id="down"></h2>
+    <p id="down_star"></p>
+</div>
+</div>
     <script src="script.js"></script>
 </body>
 </html>
